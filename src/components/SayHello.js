@@ -7,8 +7,8 @@ export default function SayHello(props) {
   const { firstname, lastname } = props;
 
   return (
-    <Text>
-      Hi {firstname} {lastname}
+    <Text style={{ fontSize: 20 }}>
+      Welcome to {firstname} {lastname}
     </Text>
   );
 }
