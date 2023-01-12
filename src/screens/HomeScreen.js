@@ -21,9 +21,9 @@ export default function HomeScreen(props) {
     >
       <Image
         source={{
-          uri: "https://i.ibb.co/DpJdBk6/llama-sola.png",
+          uri: "https://i.ibb.co/0Z0Lmw0/Norte-gas-logo-small.png",
         }}
-        style={{ width: 100, height: 220 }}
+        style={{ width: 250, height: 220 }}
       />
       <SayHello firstname="Norte" lastname="Gas" style={{ fontSize: 20 }} />
       <LoginForm />

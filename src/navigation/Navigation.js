@@ -13,7 +13,7 @@ export default function Navigation() {
   return (
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="SignupForm" component={SignupForm} />
+      <Stack.Screen name="Signup" component={SignupForm} />
     </Stack.Navigator>
   );
 }

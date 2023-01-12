@@ -9,9 +9,9 @@ const Tab = createBottomTabNavigator();
 
 export default function NavigationTab() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName="Home">
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="SignupForm" component={SignupForm} />
+      <Tab.Screen name="Signup" component={SignupForm} />
     </Tab.Navigator>
   );
 }
